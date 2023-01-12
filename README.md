@@ -1,20 +1,28 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project is written to validate the retreive and validate the maximum profit someone can earn on a given set of share price list. 
+
+Inside the logic
+There are 2 classes and 1 interface
+
+In the business layer, there is a IMaximiser interface with 2 abstract methods 
+and another class called Maximiser
+
+Insde that Maximiser class, one of those abstracted methods called profitMax, has been implemented. 
+
+Inside the test layer, there is a test class called UnitTest1.cs
+inside that there are two test methods called, validateMaximumProfit and ValidateZeroProfit respectively. Those two classes are used to validate two separate instances where someone can earn a maximum profit and where the maximum profit is zero for a given set of share prices
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+ProfitMax() API is called via UnitTest1.cs classes test methods to execute the tests. 
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Build the code and execute the unit tests to run the code. 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This code is written by : Isuru Madanayake
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+# Contribute
+Program.cs class has not been used for logic creation and execution. 
+Max API in the Maximiser.cs class has not been used for logic creation purposes instead profitMax API has been developed. 
