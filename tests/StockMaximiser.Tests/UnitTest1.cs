@@ -6,7 +6,7 @@ namespace StockMaximiser.Tests;
 public class UnitTest1
 {
     [Fact]
-    public void Test1()
+    public void validateMaximumProfit()
     {
         Maximiser maximiser = new Maximiser();
 
@@ -27,7 +27,7 @@ public class UnitTest1
     }
 
     [Fact]
-    public void Test2()
+    public void ValidateZeroProfit()
     {
         Maximiser maximiser = new Maximiser();
 
@@ -42,7 +42,7 @@ public class UnitTest1
         /* second testcase is used to show an example where a person can't make any profit
          * because all the values in the array are in a descending order hence you can only
          * end up in a lost 
-         * therefore via testcase to show the profit is 0, that has been validated. 
+         * therefore via testcase to show the profit is 0, that has been validated. TDDDDDDDDDDD
          */
     }
 }
