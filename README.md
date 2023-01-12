@@ -13,11 +13,8 @@ Inside the test layer, there is a test class called UnitTest1.cs
 inside that there are two test methods called, validateMaximumProfit and ValidateZeroProfit respectively. Those two classes are used to validate two separate instances where someone can earn a maximum profit and where the maximum profit is zero for a given set of share prices
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+ProfitMax() API is called via UnitTest1.cs classes test methods to execute the tests. 
 
 # Build and Test
 Build the code and execute the unit tests to run the code. 
