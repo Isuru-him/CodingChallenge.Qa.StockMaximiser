@@ -20,9 +20,9 @@ ProfitMax() API is called via UnitTest1.cs classes test methods to execute the t
 Build the code and execute the unit tests to run the code. 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This code is written by : Isuru Madanayake
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+# Contribute
+Program.cs class has not been used for logic creation and execution. 
+Max API in the Maximiser.cs class has not been used for logic creation purposes instead profitMax API has been developed. 
