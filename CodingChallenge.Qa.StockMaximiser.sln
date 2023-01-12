@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMaximiser", "src\StockMaximiser\StockMaximiser.csproj", "{201464E1-15E8-4C2A-8EE9-E41A1727E36F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMaximiser.Tests", "tests\StockMaximiser.Tests\StockMaximiser.Tests.csproj", "{09E9B4EC-F57E-4D3C-8217-EE286FAB4A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{201464E1-15E8-4C2A-8EE9-E41A1727E36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201464E1-15E8-4C2A-8EE9-E41A1727E36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201464E1-15E8-4C2A-8EE9-E41A1727E36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201464E1-15E8-4C2A-8EE9-E41A1727E36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E9B4EC-F57E-4D3C-8217-EE286FAB4A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E9B4EC-F57E-4D3C-8217-EE286FAB4A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E9B4EC-F57E-4D3C-8217-EE286FAB4A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E9B4EC-F57E-4D3C-8217-EE286FAB4A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
