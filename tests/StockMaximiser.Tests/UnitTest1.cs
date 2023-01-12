@@ -45,4 +45,41 @@ public class UnitTest1
          * therefore via testcase to show the profit is 0, that has been validated. TDDDDDDDDDDD
          */
     }
+
+    [Fact]
+    public void validateMaximumProfit_decimals()
+    {
+        Maximiser maximiser = new Maximiser();
+
+        decimal[] sharePrices;
+        decimal[] results;
+
+        sharePrices = new decimal[] { 7, 1, 5, 3, 6, 4 };
+
+        results = maximiser.profitMax(sharePrices);
+
+        Assert.Equal(5, results[0]);
+
+        /* third testcase is used to show the same as first but the decimals are used 
+         */
+    }
+
+    [Fact]
+    public void ValidateZeroProfit_decimals()
+    {
+        Maximiser maximiser = new Maximiser();
+
+        decimal[] sharePrices;
+        decimal[] results;
+        sharePrices = new decimal[] { 7, 6, 4, 3, 1 };
+
+        results = maximiser.profitMax(sharePrices);
+
+        Assert.Equal(0, results[0]);
+
+        /* second testcase is used to show the same as forth but the decimals are used
+         */
+    }
+
+
 }
