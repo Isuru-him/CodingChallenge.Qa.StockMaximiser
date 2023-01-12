@@ -23,6 +23,6 @@ Build the code and execute the unit tests to run the code.
 This code is written by : Isuru Madanayake
 
 
-# Contribute
+# Note
 Program.cs class has not been used for logic creation and execution. 
 Max API in the Maximiser.cs class has not been used for logic creation purposes instead profitMax API has been developed. 
