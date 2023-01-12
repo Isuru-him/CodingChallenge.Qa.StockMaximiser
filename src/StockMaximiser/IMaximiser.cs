@@ -5,4 +5,6 @@ public interface IMaximiser
     decimal Max(List<decimal> stockPrices);
 
     int[] profitMax(int[] stockPrices);
+
+    decimal[] profitMax(decimal[] stockPrices);
 }
