@@ -14,7 +14,7 @@ inside that there are two test methods called, validateMaximumProfit and Validat
 
 # Getting Started
 
-ProfitMax() API is called via UnitTest1.cs classes test methods to execute the tests. 
+overloaded ProfitMax() API is called via UnitTest1.cs classes test methods to execute the tests. 
 
 # Build and Test
 Build the code and execute the unit tests to run the code. 
